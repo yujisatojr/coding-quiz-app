@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# CS420 TypeScript Final Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created with TypeScript (.ts .tsx) and React for CS420 class.
 
 ## Available Scripts
 
