@@ -1,5 +1,12 @@
 import React from 'react';
+import { AnswerObject } from '../App';
+import { Wrapper, ButtonWrapper } from './QuestionCard.styles';
 
-const QuestionCard = () => <div>Question Card</div>
-
-export default QuestionCard;
+type Props = {
+  question: string;
+  answers: string[];
+  callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  userAnswer: AnswerObject | undefined;
+  questionNr: number;
+  totalQuestions: number;
+};
