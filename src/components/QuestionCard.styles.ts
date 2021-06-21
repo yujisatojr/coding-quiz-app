@@ -2,9 +2,9 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
   max-width: 1100px;
-  background: #ebfeff;
+  background: white;
   border-radius: 10px;
-  border: 2px solid #0085a3;
+  border: 2px solid #aa800e;
   padding: 20px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
@@ -32,10 +32,10 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     margin: 5px 0;
     background: ${({ correct, userClicked }) =>
       correct
-        ? 'linear-gradient(90deg, #56FFA4, #59BC86)'
+        ? 'linear-gradient(90deg, #1e6f41, #1e6f41)'
         : !correct && userClicked
-        ? 'linear-gradient(90deg, #FF5656, #C16868)'
-        : 'linear-gradient(90deg, #56ccff, #6eafb4)'};
+        ? 'linear-gradient(90deg, #9e1b34, #9e1b34)'
+        : 'linear-gradient(90deg, #aa800e, #aa800e)'};
     border: 3px solid #ffffff;
     box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.1);
     border-radius: 10px;

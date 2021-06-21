@@ -32,29 +32,28 @@ export const Wrapper = styled.div`
     margin: 0;
   }
   h1 {
-    font-family: Fascinate Inline;
-    background-image: linear-gradient(180deg, #fff, #87f1ff);
-    font-weight: 400;
+    background-image: linear-gradient(180deg, #fff, #9e1b34);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: #9e1b34;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
-    filter: drop-shadow(2px 2px #0085a3);
+    -moz-text-fill-color: #9e1b34;
     font-size: 70px;
     text-align: center;
     margin: 20px;
   }
   .start, .next {
     cursor: pointer;
-    background: linear-gradient(180deg, #ffffff, #ffcc91);
-    border: 2px solid #d38558;
+    background: white;
+    border: 2px solid #aa800e;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    height: 40px;
-    margin: 20px 0;
+    margin: 10px;
+    height: 100px;
+    width: 300px;
     padding: 0 40px;
+    font-size: 25px;
   }
   .start {
     max-width: 200px;
