@@ -4,7 +4,7 @@ import QuestionCard from './components/QuestionCard';
 import { QuestionsState, Difficulty } from './Quiz';
 import { GlobalStyle, Wrapper } from './App.styles';
 
-export type AnswerObject = {
+export interface AnswerObject {
   question: string;
   answer: string;
   correct: boolean;
