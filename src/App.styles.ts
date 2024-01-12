@@ -1,5 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import BGImage from './images/BYUH-1024x668.jpg';
+import BGImage from './images/pexels-markus-spiske-1089438.jpg';
+/* Background photo by Markus Spiske */
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -14,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
   }
   * {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Space Mono', monospace;
     box-sizing: border-box;
   }
 `;
@@ -32,13 +33,13 @@ export const Wrapper = styled.div`
     margin: 0;
   }
   h1 {
-    background-image: linear-gradient(180deg, #fff, #9e1b34);
+    background-image: linear-gradient(180deg, #fff, white);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: #9e1b34;
+    -webkit-text-fill-color: white;
     -moz-background-clip: text;
-    -moz-text-fill-color: #9e1b34;
+    -moz-text-fill-color: white;
     font-size: 70px;
     text-align: center;
     margin: 20px;

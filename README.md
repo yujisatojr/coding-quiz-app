@@ -1,6 +1,6 @@
-# CS420 TypeScript Final Project
+# TypeScript Quiz App
 
-This project is created with TypeScript (.ts .tsx) and React for CS420 class.
+This simple quiz app is created with TypeScript (.ts .tsx) and React.
 
 ## Available Scripts
 
