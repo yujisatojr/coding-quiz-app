@@ -47,7 +47,7 @@ export const Wrapper = styled.div`
   .start, .next {
     cursor: pointer;
     background: white;
-    border: 2px solid #aa800e;
+    border: 2px solid black;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin: 10px;
